@@ -1,0 +1,3 @@
+https://www.hackerearth.com/notes/stacks-and-queues/
+http://algorithmist.com/index.php/Stack
+http://algorithmist.com/index.php/Queue
