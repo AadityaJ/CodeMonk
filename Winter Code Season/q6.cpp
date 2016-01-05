@@ -19,3 +19,16 @@ void makeTriangle() {
 long long C(int n, int r) {
     return triangle[n][r];
 }
+int main(int argc, char const *argv[])
+{
+	int t;
+	makeTriangle();
+	scanf("%d",&t);
+	while(t--){
+		int n,x;
+		scanf("%d",&n);
+		scanf("%d",&x);
+		printf("%lld\n",C(n,x));
+	}
+	return 0;
+}
